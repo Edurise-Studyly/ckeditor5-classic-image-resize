@@ -34,9 +34,10 @@ export default class ImageMaxWidthUi extends Plugin {
         editor.ui.componentFactory.add( componentName, locale => {
             const command = editor.commands.get( 'imageMaxWidth' );
             const input = new InputTextView( locale );
+            const t = locale.t;
 
             input.set( {
-                placeholder: 'max-width',
+                placeholder: t('max-width'),
             } );
 
             input.extendTemplate({

@@ -1,0 +1,3 @@
+msgctxt "max-width"
+msgid "max-width"
+msgstr "Max-Width"
