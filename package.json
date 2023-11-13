@@ -26,5 +26,6 @@
     "url": "https://github.com/eMAGTechLabs/ckeditor5-classic-image-resize/issues"
   },
   "author": "th3mast3rofshadows",
-  "license": "GPL"
+  "license": "GPL",
+  "types": "src/imagemaxwidth.d.ts"
 }
